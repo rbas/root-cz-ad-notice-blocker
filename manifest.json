@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Root block ad-ad-block",
+  "description": "Blocking ad-ad-message.",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["http://www.root.cz/*"],
+      "js":["main.js"]
+    }
+  ],
+  "permissions": [
+    "http://www.root.cz/"
+  ]
+}
